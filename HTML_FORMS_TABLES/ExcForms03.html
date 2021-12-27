@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Marathon Form Exercise</title>
+</head>
+<body>
+    <h1>Marathon Form Exercise</h1>
+    <form action="/marathon">
+        <p>
+            <label for="first">Enter a First Name:</label>
+            <input type="text" name="firstName" id="first" required>
+            <label for="last">Enter a Last Name:</label>
+            <input type="text" name="lastName" id="last" required>
+        </p>
+        <p> Select Race:</p>
+        <p>
+            <input type="radio" name="races" id="funRun5k" value="funRun5k
+            <label for="funRun5k">Fun Run 5k</label>
+        </p>
+        <p>
+            <input type="radio" name="races" id="halfMarathon" value="halfMarathon>
+            <label for="halfMarathon">Half Marathon</label>
+        </p>
+        <p>
+            <input type="radio" name="races" id="marathon" value="marathon">
+            <label for="marathon">Full Marathon</label>
+        </p>
+        <p>
+            <label for="email">Enter a Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Enter a Password:</label>
+            <input type="password" name="password" id="password" minlength="8" required>
+        </p>
+        <p>
+            <label for="age">Select your average age</label>
+            <select id="age" name="age">
+                <option value="under_18" selected>Under 18</option>
+                <option value="18-30">18-30</option>
+                <option value="30-50">30-50</option>
+                <option value="50+">50+</option>
+            </select>
+        </p>
+        <button>Register!</button>
+    </form>
+</body>
+</html>
